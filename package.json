@@ -1,0 +1,21 @@
+{
+  "name": "rxjs-101",
+  "version": "1.0.0",
+  "description": "this is for rxjs 101",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0"
+  }
+}
